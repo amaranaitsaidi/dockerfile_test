@@ -1,0 +1,13 @@
+
+FROM node:latest
+
+
+WORKDIR /defi
+
+
+COPY defi.js ./
+
+
+EXPOSE 3000
+
+CMD [ "node", "defi.js" ]
